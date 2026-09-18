@@ -22,9 +22,9 @@ Place all written answers from `assignment-02.md` here for easier grading.
 
     Base case is reached once $\frac{n}{4^{h}} = 1$ or when $h = log{_4}{n}$
 
-    Level 1: has 5 sub-problems of size $\frac{n}{4}$ so the work is $n\frac{5}{4}$
+    Level 1: has 5 sub-problems of size $\frac{n}{4}$ which gives $n\frac{5}{4}$
 
-
+    Level $i$: has $5^{i}$ sub-problems of size $\frac{n}{4^{i}}$ which gives $n\frac{5^{i}}{4^{i}}$
    
     c) $T(n)=7T(n/7)+n$
 .  
