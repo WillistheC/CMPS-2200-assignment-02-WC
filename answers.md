@@ -16,7 +16,7 @@ Place all written answers from `assignment-02.md` here for easier grading.
 
     Level $i$: has $2^{i}$ calls contributes $2^{i}$ units of 1 = $2^{i}$
 
-    $\sum_{i=0}^{\log_3 n - 1} 2^i = \Theta(2^{\log_3 n}) = \Theta\left(n^{\log_3 2}\right)$
+    $\sum_{i=0}^{\log_3 n - 1} 2^i = \Theta(2^{\log_3 n}) = \Theta(n^{\log_3 2})$
 
     b) $T(n)=5T(n/4)+n$
 
