@@ -26,7 +26,7 @@ Place all written answers from `assignment-02.md` here for easier grading.
 
     Level $i$: has $5^{i}$ sub-problems of size $\frac{n}{4^{i}}$ which gives $n\frac{5^{i}}{4^{i}}$
 
-    This gives $\sum_{i=0}^{\log_4 n - 1}n(\frac{5}{4})^i=n(\frac{(\frac{5}{4})^{\log_4 n}-1}{\frac{5}{4}-1})=\Theta(n(\frac{5}{4})^{\log{_4}{n})$
+    This gives $\sum_{i=0}^{\log_4 n - 1}n(\frac{5}{4})^i=n(\frac{(\frac{5}{4})^{\log_4 n}-1}{\frac{5}{4}-1})=\Theta(n(\frac{5}{4})^{\log_4n})$
 
     $n(\frac{5}{4})^{\log{_4}{n}} = n(n^{log{_4}{\frac{5}{4}}$
    
