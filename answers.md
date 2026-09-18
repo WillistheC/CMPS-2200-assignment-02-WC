@@ -36,7 +36,7 @@ Place all written answers from `assignment-02.md` here for easier grading.
 
     Level 1: 7 sub-problems of size $\frac{n}{7}$ which gives $n$
 
-    Level $i$: $7^{i} sub-problems of size $\frac{n}{7^{i}}$ which gives $n(\frac{7^{i}}{7^{i}}) = n$
+    Level $i$: $7^{i}$ sub-problems of size $\frac{n}{7^{i}}$ which gives $n(\frac{7^{i}}{7^{i}}) = n$
 
    
 
