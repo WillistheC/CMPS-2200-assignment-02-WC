@@ -48,6 +48,8 @@ Place all written answers from `assignment-02.md` here for easier grading.
 
     Level $i$: $9^{i}$ sub-problems of size $(\frac{n}{3^{i}})^{2}$ which gives $n(\frac{9^{i}}{3^{2i}}) = n^{2}$
 
+    This gives $log{_3}{n^{2}}$ levels of $n$ so $T(n) = \Theta(n^{2}log{_3}{n}) = \Theta(n^{2}logn)$
+
     e) $T(n)=8T(n/2)+n^3$
 
     Base case is reached once $\frac{n}{2^{h}} = 1$ or when $h = log{_2}{n}$
