@@ -49,10 +49,13 @@ Place all written answers from `assignment-02.md` here for easier grading.
     Level $i$: $9^{i}$ sub-problems of size $\frac{n^{2}}{3^{i}}$ which gives $n(\frac{9^{i}}{3^{i}}) = 3^{i}n^{2}$
 
     e) $T(n)=8T(n/2)+n^3$
-.  
-.  
-.  
-.  
+
+    Base case is reached once $\frac{n}{2^{h}} = 1$ or when $h = log{_2}{n}$
+
+    Level 1: 8 sub-problems of size $\frac{n^{3}}{2}$ which gives $3n^{2}$
+
+    Level $i$: $8^{i}$ sub-problems of size $\frac{n^{3}}{2^{i}}$ which gives $n(\frac{8^{i}}{2^{i}}) = 4^{i}n^{3}$
+
     f) $T(n)=49T(n/25)+n^{3/2}\log n$
 .  
 .  
