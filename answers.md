@@ -95,6 +95,7 @@ Place all written answers from `assignment-02.md` here for easier grading.
     Level 2: $T(n) = T(n^{\frac{1}{4}}) + 2$
 
     Level $i$: $T(n) = T(n^{\frac{1}{2^{i}}}) + i$
-   
+
+    Base case reached when $n^{\frac{1}{2^{i}}} = 2$ -> $2^{i} = log{_2}{n}$ -> $i = log{_2}{log{_2}{n}}$
    
 1. **Algorithms Comparison**
