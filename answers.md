@@ -61,10 +61,12 @@ Place all written answers from `assignment-02.md` here for easier grading.
     This gives $log{_2}{n}$ levels of $n^{3}$ so $T(n) = \Theta(n^{3}log{_2}{n}) = \Theta(n^{3}logn)$
 
     f) $T(n)=49T(n/25)+n^{3/2}\log n$
-.  
-.  
-.  
-.  
+
+    Using the master theorem: $a = 49, b = 25, f(n) = n^{\frac{3}{2}}log{n}$
+
+
+
+   
     g) $T(n)=T(n-1)+2$
 .  
 .  
