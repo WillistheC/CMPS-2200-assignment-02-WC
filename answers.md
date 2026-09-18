@@ -54,9 +54,9 @@ Place all written answers from `assignment-02.md` here for easier grading.
 
     Base case is reached once $\frac{n}{2^{h}} = 1$ or when $h = log{_2}{n}$
 
-    Level 1: 8 sub-problems of size $\frac{n^{3}}{2}$ which gives $3n^{2}$
+    Level 1: 8 sub-problems of size $(\frac{n}{2})^{3}$ which gives $n^{3}$
 
-    Level $i$: $8^{i}$ sub-problems of size $\frac{n^{3}}{2^{i}}$ which gives $n(\frac{8^{i}}{2^{i}}) = 4^{i}n^{3}$
+    Level $i$: $8^{i}$ sub-problems of size $(\frac{n}{2^{i}})^{3}$ which gives $n(\frac{8^{i}}{8^{i}}) = n^{3}$
 
     f) $T(n)=49T(n/25)+n^{3/2}\log n$
 .  
