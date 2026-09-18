@@ -1,7 +1,7 @@
 # CMPS 2200 Assignment 02
 ## Answers
 
-**Name:**_________________________
+**Name:** Will Cunningham
 
 
 Place all written answers from `assignment-02.md` here for easier grading.
@@ -9,10 +9,11 @@ Place all written answers from `assignment-02.md` here for easier grading.
 1. **Asymptotic notation**
 
     a) $T(n)=2T(n/3)+1$
-.  
-.  
-.   
-.  
+
+    Base case is reached once $\frac{n}{3^{h}} = 1$ or when $h = log{_3}{n}$
+
+
+
     b) $T(n)=5T(n/4)+n$
 .  
 .  
@@ -54,4 +55,4 @@ Place all written answers from `assignment-02.md` here for easier grading.
 .  
 .  
    
-2. **Algorithms Comparison**
+1. **Algorithms Comparison**
