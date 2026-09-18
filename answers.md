@@ -110,3 +110,12 @@ Place all written answers from `assignment-02.md` here for easier grading.
     
     So $T(n) = \Theta(n^{log{_2}{5}})$
 
+    B) $T(n) = 2T(n-1) + 1
+
+    After $i$ expansions, $T(n) = 2^{i}T(n-i)+c\sum_{k=0}^{i-1} 2^k$
+
+    The base case is reached when $i = n-1$, or when $T(n) = 2^{n-1}T(1)+c\sum_{k=0}^{n-2} 2^k$
+
+    The summation is equivalent to the geometric sum $2^{n-1} - 1$ giving $T(n) = 2^{n-1}T(1)+c(2^{n-1}-1)
+
+    This is dominated by $2^n$ so $T(n) = \Theta(2^{n})$
