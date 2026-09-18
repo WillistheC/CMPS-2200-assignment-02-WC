@@ -58,6 +58,8 @@ Place all written answers from `assignment-02.md` here for easier grading.
 
     Level $i$: $8^{i}$ sub-problems of size $(\frac{n}{2^{i}})^{3}$ which gives $n(\frac{8^{i}}{8^{i}}) = n^{3}$
 
+    This gives $log{_2}{n}$ levels of $n^{3}$ so $T(n) = \Theta(n^{3}log{_2}{n}) = \Theta(n^{3}logn)$
+
     f) $T(n)=49T(n/25)+n^{3/2}\log n$
 .  
 .  
