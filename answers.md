@@ -119,3 +119,24 @@ Place all written answers from `assignment-02.md` here for easier grading.
     The summation is equivalent to the geometric sum $2^{n-1} - 1$ giving $T(n) = 2^{n-1}T(1)+c(2^{n-1}-1)
 
     This is dominated by $2^n$ so $T(n) = \Theta(2^{n})$
+
+    C) $T(n) = 9T(\frac{n}{3}) + n^{2}$
+
+    This was solved in 1)d), and $T(n) = \Theta(n^{2}logn)$
+
+    So which one would I choose? Any exponential, like $2^{n}$, increases faster than polynomials, so option B is eliminated
+
+    $log{_2}{5} /approx 2.32$, so let option A be $\Theta(n^{2.32})$
+
+    We can compare the limits using the fraction $\frac{n^{2.32}}{n^{2}logn} = \frac{n^{.32}}{logn}$
+
+    Every positive polynomial increases faster than logarithmic functions, so option C is the slowest increase, or the fastest algorithm
+
+    So I would choose option C
+
+
+
+
+
+
+   
