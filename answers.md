@@ -42,7 +42,7 @@ Place all written answers from `assignment-02.md` here for easier grading.
 
     d) $T(n)=9T(n/3)+n^2$
 
-    Base case is reached once $\frac{n}{7^{h}} = 1$ or when $h = log{_7}{n}$
+    Base case is reached once $\frac{n}{3^{h}} = 1$ or when $h = log{_3}{n}$
 
 
 
