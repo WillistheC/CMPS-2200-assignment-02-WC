@@ -84,7 +84,9 @@ Place all written answers from `assignment-02.md` here for easier grading.
 
     Substituting for $T(n-1)$ gives us $T(n) = T(n-2)+(n-1)^{c})+n^{c}$
 
+    The base case would be $T(1) = \Theta(1)$ which is reached when $i = n-1$
 
+    At which point $T(n) = T(1)+\sum_{k=2}^{n}k^c
 
    
     i) $T(n)=T(\sqrt{n})+1$
