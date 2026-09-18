@@ -76,7 +76,7 @@ Place all written answers from `assignment-02.md` here for easier grading.
 
     After expanding to the $i$ times: $T(n) = T(n-i)+2i$
 
-
+    The base case would be $T(1) = \Theta(1)$ which is reached when $i = n-1$
   
     h) $T(n)= T(n-1)+n^c$, with $c\geq 1$
 .  
