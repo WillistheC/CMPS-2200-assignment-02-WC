@@ -92,7 +92,7 @@ Place all written answers from `assignment-02.md` here for easier grading.
 
     Level 1: $T(n) = T(\sqrt{n}) + 1$
 
-    Level 2: $T(n) = T(n^{\frac{1}{4}) + 2$
+    Level 2: $T(n) = T(n^{\frac{1}{4}}) + 2$
 
 
    
