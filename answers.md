@@ -74,7 +74,7 @@ Place all written answers from `assignment-02.md` here for easier grading.
 
     Substituting for $T(n-1)$ gives us $T(n) = (T(n-2)+2)+2$
 
-
+    After expanding to the $i$ times: $T(n) = T(n-i)+2i$
 
 
   
