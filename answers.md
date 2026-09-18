@@ -38,13 +38,14 @@ Place all written answers from `assignment-02.md` here for easier grading.
 
     Level $i$: $7^{i}$ sub-problems of size $\frac{n}{7^{i}}$ which gives $n(\frac{7^{i}}{7^{i}}) = n$
 
-   
+    This gives $log{_7}{n}$ levels of $n$ so $T(n) = \Theta(nlog{_7}{n}) = \Theta(nlogn)$
 
     d) $T(n)=9T(n/3)+n^2$
-.  
-.  
-.  
-.  
+
+    Base case is reached once $\frac{n}{7^{h}} = 1$ or when $h = log{_7}{n}$
+
+
+
     e) $T(n)=8T(n/2)+n^3$
 .  
 .  
