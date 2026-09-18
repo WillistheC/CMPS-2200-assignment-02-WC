@@ -94,7 +94,7 @@ Place all written answers from `assignment-02.md` here for easier grading.
 
     Level 2: $T(n) = T(n^{\frac{1}{4}}) + 2$
 
-
+    Level $i$: $T(n) = T(n^{\frac{1}{2^{i}}}) + i$
    
    
 1. **Algorithms Comparison**
