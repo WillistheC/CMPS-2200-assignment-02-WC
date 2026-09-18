@@ -64,9 +64,12 @@ Place all written answers from `assignment-02.md` here for easier grading.
 
     Using the master theorem: $a = 49, b = 25, f(n) = n^{\frac{3}{2}}log{n}$
 
+    $log{_25}{49} \approx 1.21$ this is less than $\frac{3}{2}$
 
+    This means $49f(\frac{n}{25}) < cf(n)$ for some $c < 1$ for sufficiently large $n$ 
 
-   
+    So, $T(n) = \Theta(n^{\frac{3}{2}}logn)$
+
     g) $T(n)=T(n-1)+2$
 .  
 .  
