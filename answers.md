@@ -12,9 +12,9 @@ Place all written answers from `assignment-02.md` here for easier grading.
 
     Base case is reached once $\frac{n}{3^{h}} = 1$ or when $h = log{_3}{n}$
 
-    Level 1: has 2 calls contributes 2 calls of 1 = 2
+    Level 1: 2 calls, which contributes 2 calls of 1 = 2
 
-    Level $i$: has $2^{i}$ calls contributes $2^{i}$ units of 1 = $2^{i}$
+    Level $i$: $2^{i}$ calls contributes $2^{i}$ units of 1 = $2^{i}$
 
     $\sum_{i=0}^{\log_3 n - 1} 2^i = \Theta(2^{\log_3 n}) = \Theta(n^{\log_3 2})$
 
@@ -22,19 +22,24 @@ Place all written answers from `assignment-02.md` here for easier grading.
 
     Base case is reached once $\frac{n}{4^{h}} = 1$ or when $h = log{_4}{n}$
 
-    Level 1: has 5 sub-problems of size $\frac{n}{4}$ which gives $n\frac{5}{4}$
+    Level 1: 5 sub-problems of size $\frac{n}{4}$ which gives $n\frac{5}{4}$
 
-    Level $i$: has $5^{i}$ sub-problems of size $\frac{n}{4^{i}}$ which gives $n\frac{5^{i}}{4^{i}}$
+    Level $i$: $5^{i}$ sub-problems of size $\frac{n}{4^{i}}$ which gives $n\frac{5^{i}}{4^{i}}$
 
     This gives $\sum_{i=0}^{\log_4 n - 1}n(\frac{5}{4})^i=n(\frac{(\frac{5}{4})^{\log_4 n}-1}{\frac{5}{4}-1})=\Theta(n(\frac{5}{4})^{\log_4n})$
 
     $n(\frac{5}{4})^{\log_4n} = n(n^{log_4\frac{5}{4}}) = n^{log_45}$ -> $T(n) = \Theta(n^{log_45})$
    
-    c) $T(n)=7T(n/7)+n$
-.  
-.  
-.  
-.  
+    c) $T(n)=7T(n/7)+n$ 
+
+    Base case is reached once $\frac{n}{7^{h}} = 1$ or when $h = log{_7}{n}$
+
+    Level 1: 7 sub-problems 
+
+
+
+   
+
     d) $T(n)=9T(n/3)+n^2$
 .  
 .  
