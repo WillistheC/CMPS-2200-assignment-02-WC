@@ -71,10 +71,13 @@ Place all written answers from `assignment-02.md` here for easier grading.
     So, $T(n) = \Theta(n^{\frac{3}{2}}logn)$
 
     g) $T(n)=T(n-1)+2$
-.  
-.  
-.  
-.  
+
+    Substituting for $T(n-1)$ gives us $T(n) = (T(n-2)+2)+2$
+
+
+
+
+  
     h) $T(n)= T(n-1)+n^c$, with $c\geq 1$
 .  
 .  
