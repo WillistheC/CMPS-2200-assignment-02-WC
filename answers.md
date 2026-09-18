@@ -77,6 +77,11 @@ Place all written answers from `assignment-02.md` here for easier grading.
     After expanding to the $i$ times: $T(n) = T(n-i)+2i$
 
     The base case would be $T(1) = \Theta(1)$ which is reached when $i = n-1$
+
+    Substituting that back in: $T(n) = \Theta(1) + 2n - 2$ which gives the final run time of $T(n) = \Theta(n)$
+
+
+
   
     h) $T(n)= T(n-1)+n^c$, with $c\geq 1$
 .  
