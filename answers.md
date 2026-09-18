@@ -101,3 +101,7 @@ Place all written answers from `assignment-02.md` here for easier grading.
     So $T(n) = T(2) + log{_2}{log{_2}{n}} = \Theta(log{_2}{log{_2}{n}})$
    
 1. **Algorithms Comparison**
+
+A)  $T(n) = 5T(\frac{n}{2}) + n$
+
+    Using the master theorem
