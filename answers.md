@@ -79,15 +79,14 @@ Place all written answers from `assignment-02.md` here for easier grading.
     The base case would be $T(1) = \Theta(1)$ which is reached when $i = n-1$
 
     Substituting that back in: $T(n) = \Theta(1) + 2n - 2$ which gives the final run time of $T(n) = \Theta(n)$
-
-
-
   
     h) $T(n)= T(n-1)+n^c$, with $c\geq 1$
-.  
-.  
-.  
-.  
+
+    Substituting for $T(n-1)$ gives us $T(n) = T(n-2)+(n-1)^{c})+n^{c}$
+
+
+
+   
     i) $T(n)=T(\sqrt{n})+1$
 .  
 .  
