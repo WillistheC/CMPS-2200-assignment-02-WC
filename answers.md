@@ -44,7 +44,7 @@ Place all written answers from `assignment-02.md` here for easier grading.
 
     Base case is reached once $\frac{n}{3^{h}} = 1$ or when $h = log{_3}{n}$
 
-    Level 1: 9 sub-problems of size $\frac{n^{2}}{3}$ which gives $3n^{2}$
+    Level 1: 9 sub-problems of size $\frac{n}{3}^{2}$ which gives $n^{2}$
 
     Level $i$: $9^{i}$ sub-problems of size $\frac{n^{2}}{3^{i}}$ which gives $n(\frac{9^{i}}{3^{i}}) = 3^{i}n^{2}$
 
