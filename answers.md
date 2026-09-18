@@ -102,11 +102,11 @@ Place all written answers from `assignment-02.md` here for easier grading.
    
 1. **Algorithms Comparison**
 
-A) $T(n) = 5T(\frac{n}{2}) + n$
-
-Using the master theorem: $a = 5, b = 2, f(n) = n$
-
-$log{_2}{5} \approx 2.32$ and $n^{2.32} > n^{1}$
-
-So $T(n) = \Theta(n^{log{_2}{5}})$
+    A) $T(n) = 5T(\frac{n}{2}) + n$
+    
+    Using the master theorem: $a = 5, b = 2, f(n) = n$
+    
+    $log{_2}{5} \approx 2.32$ and $n^{2.32} > n^{1}$
+    
+    So $T(n) = \Theta(n^{log{_2}{5}})$
 
