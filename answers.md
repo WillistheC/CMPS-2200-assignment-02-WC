@@ -88,11 +88,13 @@ Place all written answers from `assignment-02.md` here for easier grading.
 
     At which point $T(n) = T(1)+ \sum_{k=2}^{n} k^c = 1^{c} + 2^{c} ... + n^{c} = \Theta(n^{c+1})$
 
-   
     i) $T(n)=T(\sqrt{n})+1$
-.  
-.  
-.  
-.  
+
+    Level 1: $T(n) = T(\sqrt{n}) + 1$
+
+    Level 2: $T(n) = T(n^{\frac{1}{4}) + 2$
+
+
+   
    
 1. **Algorithms Comparison**
