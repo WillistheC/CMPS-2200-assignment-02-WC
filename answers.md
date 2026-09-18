@@ -16,7 +16,7 @@ Place all written answers from `assignment-02.md` here for easier grading.
 
     Level $i$: has $2^{i}$ calls contributes $2^{i}$ units of 1 = $2^{i}$
 
-    $\sum_{i=0}^{\log_3 n - 1} 2^i = \Theta\left(2^{\log_3 n}\right) = \Theta\left(n^{\log_3 2}\right)$
+    $\sum_{i=0}^{\log_3 n - 1} 2^i = \Theta(2^{\log_3 n}) = \Theta\left(n^{\log_3 2}\right)$
 
     b) $T(n)=5T(n/4)+n$
 
@@ -27,6 +27,8 @@ Place all written answers from `assignment-02.md` here for easier grading.
     Level $i$: has $5^{i}$ sub-problems of size $\frac{n}{4^{i}}$ which gives $n\frac{5^{i}}{4^{i}}$
 
     This gives $\sum_{i=0}^{\log_4 n - 1}n\left(\frac{5}{4}\right)^i=n\left(\frac{\left(\frac{5}{4}\right)^{\log_4 n}-1}{\frac{5}{4}-1}\right)=\Theta\left(n\left(\frac{5}{4}\right)^{\log_4 n}\right)$
+
+    
    
     c) $T(n)=7T(n/7)+n$
 .  
