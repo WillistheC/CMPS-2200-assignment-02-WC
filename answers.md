@@ -12,7 +12,12 @@ Place all written answers from `assignment-02.md` here for easier grading.
 
     Base case is reached once $\frac{n}{3^{h}} = 1$ or when $h = log{_3}{n}$
 
+    Level 1: has 2 calls contributes 2 units of 1 = 2
 
+    Level $i$: has $2^{i}$ calls contributes $2^{i}$ units of 1 = $2^{i}$
+
+    $\[
+\sum_{i=0}^{\log_3 n - 1} 2^i = \Theta\left(2^{\log_3 n}\right) = \Theta\left(n^{\log_3 2}\right).\]#
 
     b) $T(n)=5T(n/4)+n$
 .  
