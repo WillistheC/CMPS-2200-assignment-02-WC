@@ -34,7 +34,7 @@ Place all written answers from `assignment-02.md` here for easier grading.
 
     Base case is reached once $\frac{n}{7^{h}} = 1$ or when $h = log{_7}{n}$
 
-    Level 1: 7 sub-problems 
+    Level 1: 7 sub-problems of size $\frac{n}{7}$ which gives $n$
 
 
 
